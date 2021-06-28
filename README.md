@@ -10,14 +10,15 @@ After installation first time running vim do a
 See more (https://github.com/neoclide/coc.nvim/wiki/Language-servers)
 
 To get vim from source do the following
-`git clone https://github.com/vim/vim.git
+```
+git clone https://github.com/vim/vim.git
 cd vim/src
 ./configure --enable-python3interp --enable-gui=no \
   --without-x --enable-cscope --enable-multibyte \
   --prefix=/usr --with-python3-command=/usr/bin/python3.6
 
-make`
-
+make
+```
 dependencies of vim are make, autostuffs, gcc, ncurses-devel
 python3-devel
 
