@@ -76,6 +76,8 @@ nnoremap <C-i> <C-W><C-K>
 nnoremap <C-k> <C-W><C-J>
 nnoremap <C-l> <C-W><C-L>
 
+inoremap hh <ESC>
+
 " Nerdtree
 noremap <C-e> :NERDTreeToggle<CR>
 let NERDTreeMapOpenSplit='h'
