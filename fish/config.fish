@@ -1,11 +1,10 @@
 set PATH ~/bin/ $PATH
 alias ca='subl'
 alias nse='sudo ip netns exec'
-alias va='neovide'
 alias k='kubectl'
 
 export KUBECONFIG=./config
 
-function nv
-    neovide $argv --multiGrid &; disown
-end
+set fish_function_path $fish_function_path ~/.vim/plugged/powerline/powerline/bindings/fish/
+source ~/.vim/plugged/powerline/powerline/bindings/fish/powerline-setup.fish
+powerline-setup
