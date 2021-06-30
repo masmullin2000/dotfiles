@@ -15,8 +15,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'powerline/powerline' 
 
 call plug#end()
+
 autocmd vimenter * ++nested colorscheme gruvbox
 
 filetype plugin indent on
@@ -76,7 +78,7 @@ nnoremap <C-i> <C-W><C-K>
 nnoremap <C-k> <C-W><C-J>
 nnoremap <C-l> <C-W><C-L>
 
-inoremap hh <ESC>
+inoremap jj <ESC>
 
 " Nerdtree
 noremap <C-e> :NERDTreeToggle<CR>
@@ -90,3 +92,7 @@ noremap <C-t> :tabe<CR>
 
 " Code Completion with coc
 source ~/.vim/my_coc.vim
+
+" Set Powerline
+source ~/.vim/plugged/powerline/powerline/bindings/vim/plugin/powerline.vim
+
