@@ -10,3 +10,12 @@ pushd fish
 sh install.sh
 popd
 
+read -p "Install BashRC? " yn
+case $yn in
+    [Yy]* )
+        pushd bash
+        sh install.sh
+        popd
+        ;;
+esac
+
