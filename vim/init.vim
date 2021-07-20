@@ -1,5 +1,9 @@
 set guifont=lilex:h22
 
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
 set clipboard+=unnamedplus
 set runtimepath^=~/.vim runtimepath+=~/.vim/after
 let &packpath=&runtimepath
