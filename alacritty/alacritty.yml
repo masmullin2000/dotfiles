@@ -112,7 +112,7 @@ font:
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
     # family: Fira Mono for Powerline
-    family: lilex
+    family: Lilex for Powerline
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -123,7 +123,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: lilex
+    family: Lilex for Powerline
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -137,7 +137,7 @@ font:
     family: monospace
 
     # The `style` can be specified to pick a specific face.
-    style: lilex
+    style: Lilex for Powerline
 
   # Bold italic font face
   #bold_italic:
@@ -145,7 +145,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: lilex
+    family: Lilex for Powerline
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
