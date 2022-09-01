@@ -7,7 +7,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
-
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rust-lang/rust.vim'
@@ -16,6 +15,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'powerline/powerline' 
+Plug 'sakhnik/nvim-gdb', { 'do': ':!./install.sh' }
 
 call plug#end()
 
